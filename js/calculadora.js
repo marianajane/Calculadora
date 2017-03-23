@@ -1,31 +1,20 @@
-function suma() {
-	var listaFrutas= document.getElementById("sumando").value;
-    console.log (listaFrutas);
-}
-
-/*function numeros(){
-  
-}
-
 function sumar(numeros) {
-  
-  var suma = 
-  document.getElementById("sumando").value;
-  document.getElementById("espacio").innerHTML = "suma";
-}
-  return suma;
-
-
+	// TO DO: sumar numeros
+  numeros+=
+  return +
 }
 
 function restar(numeros) {
-  return ;
+	// TO DO: restar numeros
+  return -
 }
 
 function multiplicar(numeros) {
-	return ;
+	// TO DO: multiplicar numeros
+	return *
 }
 
 function dividir(numeros) {
-	return ;
+	// TO DO: dividir numeros
+	return /
 }
