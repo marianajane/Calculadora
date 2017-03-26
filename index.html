@@ -13,39 +13,38 @@
       <table border="2">
         <tr>
          <div class="numbers">
-    		<td><button type="button" value="1" onclick="document.calculadora.operacion.value+='1'">1</button></td>
-         	<td><button type="button" value="2" onclick="document.calculadora.operacion.value+='2'">2</button></td>
-         	<td><button type="button" value="3" onclick="document.calculadora.operacion.value+='3'">3</button></td>
+    		<td><button type="button" value="1" onclick="agregarNumber(this);">1</button></td>
+         	<td><button type="button" value="2" onclick="agregarNumber(this);">2</button></td>
+         	<td><button type="button" value="3" onclick="agregarNumber(this);">3</button></td>
          </div>
-         	<td><button type="button" id="suma" value="sumar();" onclick="document.calculadora.operacion.value+='+'">+</button></td>
+         	<td><button type="button" id="suma" value="+" onclick="agregarNumber(this);">+</button></td>
         </tr>
         <tr>
          <div class="numbers">
-         	<td><button type="button" value="4" onclick="document.calculadora.operacion.value+='4'">4</button></td>
-         	<td><button type="button" value="5" onclick="document.calculadora.operacion.value+='5'">5</button></td>
-         	<td><button type="button" value="6" onclick="document.calculadora.operacion.value+='6'">6</button></td>
+         	<td><button type="button" value="4" onclick="agregarNumber(this);">4</button></td>
+         	<td><button type="button" value="5" onclick="agregarNumber(this);">5</button></td>
+         	<td><button type="button" value="6" onclick="agregarNumber(this);">6</button></td>
          </div>
-         	<td><button type="button" id="resta" value="restar();" onclick="document.calculadora.operacion.value+='-'">-</button></td>
+         	<td><button type="button" id="resta" value="-" onclick="agregarNumber(this);">-</button></td>
         </tr>
         <tr>
          <div class="numbers">
-         	<td><button type="button" value="7" onclick="document.calculadora.operacion.value+='7'">7</button></td>
-         	<td><button type="button" value="8" onclick="document.calculadora.operacion.value+='8'">8</button></td>
-         	<td><button type="button" value="9" onclick="document.calculadora.operacion.value+='9'">9</button></td>
+         	<td><button type="button" value="7" onclick="agregarNumber(this);">7</button></td>
+         	<td><button type="button" value="8" onclick="agregarNumber(this);">8</button></td>
+         	<td><button type="button" value="9" onclick="agregarNumber(this);">9</button></td>
          </div>
-         	<td><button type="button" id="multiplicacion" value="multiplicar()" onclick="document.calculadora.operacion.value+='+'">*</button></td>
+         	<td><button type="button" id="multiplicacion" value="*" onclick="agregarNumber(this);">*</button></td>
         </tr>
         <tr>
-         	<td><button type="button" value="." onclick="document.calculadora.operacion.value+='.'"> . </button></td>
+         	<td><button type="button" value="." onclick="agregarNumber(this);">.</button></td>
          <div class="numbers">
-         	<td><button type="button" value="0" onclick="document.calculadora.operacion.value+='0'">0</button></td>
+         	<td><button type="button" value="0" onclick="agregarNumber(this);">0</button></td>
          </div>
-         	<td><button type="button" id="igual" value="" onclick="operar();">=</button></td>
-         	<td><button type="button" id="division" value="dividir();" onclick="document.calculadora.operacion.value+='+'">/</button></td>
+         	<td><button type="button" id="igual" value="=" onclick="escribirResultado(this);">=</button></td>
+         	<td><button type="button" id="division" value="/" onclick="agregarNumber(this);">/</button></td>
         </tr>
        </table>
        </form>
-       <script src="./js/calculadora.js"></script>
        <script src="./js/javascript.js"></script>
       </center>
       
